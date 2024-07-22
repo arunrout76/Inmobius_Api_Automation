@@ -1,0 +1,9 @@
+To Run Scrtpts
+behave -f allure_behave.formatter:AllureFormatter -o .\Reports\Allure_Result .\features\
+
+To Generate Reports
+allure generate Reports\Allure_Result -o Reports\Allure_Report --clean
+
+
+
+api_password = "twzx ybvd nuig hstb"

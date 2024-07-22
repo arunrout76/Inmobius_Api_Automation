@@ -1,0 +1,12 @@
+17/07/2024 06:52:17 PM: INFO: student_register_steps: validate_status: printed status_code201
+17/07/2024 06:52:17 PM: INFO: student_register_steps: validate_status: Actual Status Code 201
+17/07/2024 06:52:17 PM: INFO: student_register_steps: register_message_response: User registered
+17/07/2024 06:52:25 PM: INFO: student_register_steps: validate_status: printed status_code409
+17/07/2024 06:52:25 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
+17/07/2024 06:52:25 PM: INFO: student_register_steps: register_message_response: User already exist
+17/07/2024 06:52:34 PM: INFO: student_register_steps: validate_status: printed status_code409
+17/07/2024 06:52:34 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
+17/07/2024 06:52:34 PM: INFO: student_register_steps: register_message_response: Similar users found
+17/07/2024 06:52:42 PM: INFO: student_register_steps: validate_status: printed status_code409
+17/07/2024 06:52:42 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
+17/07/2024 06:52:42 PM: INFO: student_register_steps: register_message_response: Similar users found

@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 17 18:41:30 IST 2024","Wed Jul 17 18:41:38 IST 2024","8392","","","","","","Register a Organic Exist Student.",""
+"passed","Wed Jul 17 18:41:21 IST 2024","Wed Jul 17 18:41:30 IST 2024","8988","","","","","","Register a Organic New Student.",""
+"passed","Wed Jul 17 18:41:48 IST 2024","Wed Jul 17 18:41:56 IST 2024","8496","","","","","","Register a Organic Student for Exist Phone Number",""
+"passed","Wed Jul 17 18:41:38 IST 2024","Wed Jul 17 18:41:48 IST 2024","9510","","","","","","Register a Organic Student for Exist mail",""

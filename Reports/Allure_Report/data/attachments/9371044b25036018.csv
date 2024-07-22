@@ -1,0 +1,6 @@
+key,value
+accept,application/json
+product-id,100
+tenant-id,99999
+Content-Type,application/json
+platform,web
