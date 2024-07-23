@@ -13,7 +13,7 @@ from datetime import datetime
 
 email_sender = "arunrout76@gmail.com"
 # email_password = os.getenv('GMAIL_16_DIGIT_PASSWORD')
-email_password = "twzx ybvd nuig hstb"
+email_password = "16-Digit_PASSWORD"
 email_receiver = "arunrout62@gmail.com"
 
 
