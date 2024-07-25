@@ -7,6 +7,7 @@ def run_behave_tests():
         print("Kuamr")
         print("Rout")
         print("Run")
+        print("this")
         # Activate the virtual environment
         venv_python = os.path.join('venv', 'Scripts', 'python.exe')
 
