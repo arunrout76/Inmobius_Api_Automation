@@ -8,6 +8,7 @@ def run_behave_tests():
         print("Rout")
         print("Run")
         print("this")
+        print("Kanha")
         # Activate the virtual environment
         venv_python = os.path.join('venv', 'Scripts', 'python.exe')
 
