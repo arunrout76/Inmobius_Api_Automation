@@ -17,6 +17,7 @@ def run_behave_tests():
         print("Sukanti")
         print("Omm")
         print("radhe")
+        print("Radhe Radhe")
         # Activate the virtual environment
         venv_python = os.path.join('venv', 'Scripts', 'python.exe')
 
