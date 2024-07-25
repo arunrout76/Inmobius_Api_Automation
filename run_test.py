@@ -4,6 +4,7 @@ import os
 def run_behave_tests():
     try:
         print("Hello Arun")
+        print("Kumar")
         # Activate the virtual environment
         venv_python = os.path.join('venv', 'Scripts', 'python.exe')
 
