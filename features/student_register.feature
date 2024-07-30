@@ -11,11 +11,11 @@ Feature: Organic Registration for Student
     |platform    |web|
     And passing payload for organic new registration
     |key                  |value|
-    |first_name           |sahi|
+    |first_name           |sahik|
     |last_name            |test|
     |isd_code             |+91|
-    |phone                |1119998884|
-    |email                |sahib@uio.com|
+    |phone                |1119998885|
+    |email                |sahibk@uio.com|
     |role_ids             |[1]|
     |password             |QWERTY|
     |grade_id             |8|
