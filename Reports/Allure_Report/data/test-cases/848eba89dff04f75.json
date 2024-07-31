@@ -1,0 +1,154 @@
+{
+  "uid" : "848eba89dff04f75",
+  "name" : "Student Login with Wrong Credentials",
+  "fullName" : "Student Login: Student Login with Wrong Credentials",
+  "historyId" : "e30f74b6260595e28423bce9babdc6bb",
+  "time" : {
+    "start" : 1722323898339,
+    "stop" : 1722323899163,
+    "duration" : 824
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I send a GET request to \"https://gatewayapi.devinfinitylearn.in/api/v1/user/login\"",
+      "time" : {
+        "start" : 1722323898340,
+        "stop" : 1722323898341,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And passing headers",
+      "time" : {
+        "start" : 1722323898341,
+        "stop" : 1722323898345,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eab2791d4a3955b1",
+        "name" : ".table",
+        "source" : "eab2791d4a3955b1.csv",
+        "type" : "text/csv",
+        "size" : 100
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And Passing Incorrect Payload",
+      "time" : {
+        "start" : 1722323898345,
+        "stop" : 1722323898349,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb4565beff78272d",
+        "name" : ".table",
+        "source" : "cb4565beff78272d.csv",
+        "type" : "text/csv",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I send request as POST method",
+      "time" : {
+        "start" : 1722323898349,
+        "stop" : 1722323899156,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then The response status code should be 400",
+      "time" : {
+        "start" : 1722323899156,
+        "stop" : 1722323899158,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And In Reponse get a message as \"Incorrect Password\"",
+      "time" : {
+        "start" : 1722323899159,
+        "stop" : 1722323899162,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Student Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "848eba89dff04f75.json",
+  "parameterValues" : [ ]
+}

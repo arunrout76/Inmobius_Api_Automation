@@ -1,0 +1,164 @@
+{
+  "uid" : "3dd0fbc280edd694",
+  "name" : "Student Login with Correct Credentials",
+  "fullName" : "Student Login: Student Login with Correct Credentials",
+  "historyId" : "c2b9ef91ed1f76dfbfca7799a7910377",
+  "time" : {
+    "start" : 1722418586292,
+    "stop" : 1722418587987,
+    "duration" : 1695
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I send a GET request to \"https://gatewayapi.devinfinitylearn.in/api/v1/user/login\"",
+      "time" : {
+        "start" : 1722418586296,
+        "stop" : 1722418586299,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And passing headers",
+      "time" : {
+        "start" : 1722418586300,
+        "stop" : 1722418586304,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "401037b169df5874",
+        "name" : ".table",
+        "source" : "401037b169df5874.csv",
+        "type" : "text/csv",
+        "size" : 100
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And passing payload",
+      "time" : {
+        "start" : 1722418586304,
+        "stop" : 1722418586308,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "585c862a39ac781f",
+        "name" : ".table",
+        "source" : "585c862a39ac781f.csv",
+        "type" : "text/csv",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I send request as POST method",
+      "time" : {
+        "start" : 1722418586308,
+        "stop" : 1722418587967,
+        "duration" : 1659
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then The response status code should be 200",
+      "time" : {
+        "start" : 1722418587969,
+        "stop" : 1722418587981,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Validate admission_id \"13907DSZS\"",
+      "time" : {
+        "start" : 1722418587982,
+        "stop" : 1722418587986,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Student Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9a0da3d27ceca4eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722323896567,
+        "stop" : 1722323898336,
+        "duration" : 1769
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3dd0fbc280edd694.json",
+  "parameterValues" : [ ]
+}

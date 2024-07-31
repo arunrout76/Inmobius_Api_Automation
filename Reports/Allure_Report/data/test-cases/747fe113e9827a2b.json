@@ -1,0 +1,164 @@
+{
+  "uid" : "747fe113e9827a2b",
+  "name" : "Register a Organic Exist Student.",
+  "fullName" : "Organic Registration for Student: Register a Organic Exist Student.",
+  "historyId" : "08c7d6d10fc04ce5925892705e50b4ea",
+  "time" : {
+    "start" : 1722418598237,
+    "stop" : 1722418607773,
+    "duration" : 9536
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I send a POST request to \"https://gatewayapi.devinfinitylearn.in/api/v1/user/register\"",
+      "time" : {
+        "start" : 1722418598239,
+        "stop" : 1722418598239,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And passing headers for organic registration",
+      "time" : {
+        "start" : 1722418598240,
+        "stop" : 1722418598242,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f78059dc0afb9ef",
+        "name" : ".table",
+        "source" : "2f78059dc0afb9ef.csv",
+        "type" : "text/csv",
+        "size" : 114
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And passing payload for organic exist registration",
+      "time" : {
+        "start" : 1722418598242,
+        "stop" : 1722418598244,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a9300e76ca6107d5",
+        "name" : ".table",
+        "source" : "a9300e76ca6107d5.csv",
+        "type" : "text/csv",
+        "size" : 196
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I send request as POST method for organic registration",
+      "time" : {
+        "start" : 1722418598245,
+        "stop" : 1722418607768,
+        "duration" : 9523
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then The response status code of organic registration should be \"409\"",
+      "time" : {
+        "start" : 1722418607769,
+        "stop" : 1722418607771,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Validate message for organic registration should \"User already exist\"",
+      "time" : {
+        "start" : 1722418607771,
+        "stop" : 1722418607772,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Organic Registration for Student"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd84be5afc616d22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722323908806,
+        "stop" : 1722323918428,
+        "duration" : 9622
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "747fe113e9827a2b.json",
+  "parameterValues" : [ ]
+}

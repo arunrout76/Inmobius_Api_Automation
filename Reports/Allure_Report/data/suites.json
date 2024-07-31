@@ -1,0 +1,83 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Student Login with Correct Credentials",
+    "uid" : "3dd0fbc280edd694",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418586292,
+      "stop" : 1722418587987,
+      "duration" : 1695
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Student Login with Wrong Credentials",
+    "uid" : "3af623c33edda024",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418587990,
+      "stop" : 1722418588651,
+      "duration" : 661
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic New Student.",
+    "uid" : "2a6bd29c7dada771",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1722418588656,
+      "stop" : 1722418598234,
+      "duration" : 9578
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic Exist Student.",
+    "uid" : "747fe113e9827a2b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418598237,
+      "stop" : 1722418607773,
+      "duration" : 9536
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic Student for Exist mail",
+    "uid" : "58dcf6c2ce15d87f",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418607776,
+      "stop" : 1722418617881,
+      "duration" : 10105
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic Student for Exist Phone Number",
+    "uid" : "af3fa6d19a51b3e9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418617884,
+      "stop" : 1722418628564,
+      "duration" : 10680
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

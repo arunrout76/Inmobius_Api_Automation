@@ -1,0 +1,161 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Register a Organic Exist Student.",
+    "uid" : "747fe113e9827a2b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418598237,
+      "stop" : 1722418607773,
+      "duration" : 9536
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Student Login with Correct Credentials",
+    "uid" : "9a0da3d27ceca4eb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722323896567,
+      "stop" : 1722323898336,
+      "duration" : 1769
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Student Login with Correct Credentials",
+    "uid" : "3dd0fbc280edd694",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418586292,
+      "stop" : 1722418587987,
+      "duration" : 1695
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic Exist Student.",
+    "uid" : "fd84be5afc616d22",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722323908806,
+      "stop" : 1722323918428,
+      "duration" : 9622
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic Student for Exist Phone Number",
+    "uid" : "15f179e67d84ddc1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722323928227,
+      "stop" : 1722323937980,
+      "duration" : 9753
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic Student for Exist mail",
+    "uid" : "58dcf6c2ce15d87f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418607776,
+      "stop" : 1722418617881,
+      "duration" : 10105
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic New Student.",
+    "uid" : "a46dd0311d00ef82",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1722323899166,
+      "stop" : 1722323908803,
+      "duration" : 9637
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Student Login with Wrong Credentials",
+    "uid" : "3af623c33edda024",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418587990,
+      "stop" : 1722418588651,
+      "duration" : 661
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic Student for Exist Phone Number",
+    "uid" : "af3fa6d19a51b3e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722418617884,
+      "stop" : 1722418628564,
+      "duration" : 10680
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic Student for Exist mail",
+    "uid" : "b84005eac6fb7ae9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722323918431,
+      "stop" : 1722323928224,
+      "duration" : 9793
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register a Organic New Student.",
+    "uid" : "2a6bd29c7dada771",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1722418588656,
+      "stop" : 1722418598234,
+      "duration" : 9578
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Student Login with Wrong Credentials",
+    "uid" : "848eba89dff04f75",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1722323898339,
+      "stop" : 1722323899163,
+      "duration" : 824
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

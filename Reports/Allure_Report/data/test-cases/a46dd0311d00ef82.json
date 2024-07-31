@@ -1,0 +1,160 @@
+{
+  "uid" : "a46dd0311d00ef82",
+  "name" : "Register a Organic New Student.",
+  "fullName" : "Organic Registration for Student: Register a Organic New Student.",
+  "historyId" : "45743100b0f3d41cf9b07aa46ea5eeb9",
+  "time" : {
+    "start" : 1722323899166,
+    "stop" : 1722323908803,
+    "duration" : 9637
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError\n",
+  "statusTrace" : "  File \"C:\\Users\\arun\\Downloads\\InmobiusApiAutomation\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\Downloads\\InmobiusApiAutomation\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\student_register_steps.py\", line 74, in validate_status\n    assert context.response.status_code == int(status_code)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError\n",
+    "statusTrace" : "  File \"C:\\Users\\arun\\Downloads\\InmobiusApiAutomation\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\Downloads\\InmobiusApiAutomation\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\student_register_steps.py\", line 74, in validate_status\n    assert context.response.status_code == int(status_code)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+    "steps" : [ {
+      "name" : "Given I send a POST request to \"https://gatewayapi.devinfinitylearn.in/api/v1/user/register\"",
+      "time" : {
+        "start" : 1722323899168,
+        "stop" : 1722323899169,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And passing headers for organic registration",
+      "time" : {
+        "start" : 1722323899170,
+        "stop" : 1722323899171,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f977038c9e9a30c",
+        "name" : ".table",
+        "source" : "4f977038c9e9a30c.csv",
+        "type" : "text/csv",
+        "size" : 114
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And passing payload for organic new registration",
+      "time" : {
+        "start" : 1722323899172,
+        "stop" : 1722323899174,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0bdadcf8f940de6",
+        "name" : ".table",
+        "source" : "f0bdadcf8f940de6.csv",
+        "type" : "text/csv",
+        "size" : 194
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I send request as POST method for organic registration",
+      "time" : {
+        "start" : 1722323899175,
+        "stop" : 1722323908765,
+        "duration" : 9590
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then The response status code of organic registration should be \"201\"",
+      "time" : {
+        "start" : 1722323908765,
+        "stop" : 1722323908800,
+        "duration" : 35
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\arun\\Downloads\\InmobiusApiAutomation\\venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\arun\\Downloads\\InmobiusApiAutomation\\venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\student_register_steps.py\", line 74, in validate_status\n    assert context.response.status_code == int(status_code)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And Validate message for organic registration should \"User registered\"",
+      "time" : {
+        "start" : 1722323908803,
+        "stop" : 1722323908803,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Organic Registration for Student"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a46dd0311d00ef82.json",
+  "parameterValues" : [ ]
+}

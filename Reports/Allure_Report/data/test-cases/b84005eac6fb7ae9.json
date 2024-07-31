@@ -1,0 +1,154 @@
+{
+  "uid" : "b84005eac6fb7ae9",
+  "name" : "Register a Organic Student for Exist mail",
+  "fullName" : "Organic Registration for Student: Register a Organic Student for Exist mail",
+  "historyId" : "3e335e9c417151c1aa3abcb2b0538fd3",
+  "time" : {
+    "start" : 1722323918431,
+    "stop" : 1722323928224,
+    "duration" : 9793
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I send a POST request to \"https://gatewayapi.devinfinitylearn.in/api/v1/user/register\"",
+      "time" : {
+        "start" : 1722323918433,
+        "stop" : 1722323918434,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And passing headers for organic registration",
+      "time" : {
+        "start" : 1722323918434,
+        "stop" : 1722323918436,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "917f94c894c8e36f",
+        "name" : ".table",
+        "source" : "917f94c894c8e36f.csv",
+        "type" : "text/csv",
+        "size" : 114
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And passing payload for organic registration using exist mail",
+      "time" : {
+        "start" : 1722323918436,
+        "stop" : 1722323918439,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "835a327eb2164a5d",
+        "name" : ".table",
+        "source" : "835a327eb2164a5d.csv",
+        "type" : "text/csv",
+        "size" : 193
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I send request as POST method for organic registration",
+      "time" : {
+        "start" : 1722323918439,
+        "stop" : 1722323928214,
+        "duration" : 9775
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then The response status code of organic registration should be \"409\"",
+      "time" : {
+        "start" : 1722323928214,
+        "stop" : 1722323928216,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Validate message for organic registration should \"Similar users found\"",
+      "time" : {
+        "start" : 1722323928216,
+        "stop" : 1722323928221,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Organic Registration for Student"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b84005eac6fb7ae9.json",
+  "parameterValues" : [ ]
+}
