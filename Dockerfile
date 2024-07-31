@@ -1,6 +1,23 @@
 # Use the official Python image from the Docker Hub
 FROM python:3.11.4-slim
 
+# Install required tools
+RUN apt-get update && apt-get install -y \
+    curl \
+    unzip \
+    openjdk-11-jre-headless
+
+# Install Allure Command-Line tools (version 2.13.2)
+RUN curl -o /tmp/allure.zip -L https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.2/allure-commandline-2.13.2.zip \
+    && unzip /tmp/allure.zip -d /opt/ \
+    && ln -s /opt/allure-2.13.2/bin/allure /usr/bin/allure
+
+# # Set environment paths for Python, Selenium, Java, and Allure binaries
+# ENV PATH $PATH:/usr/bin:/opt/allure-2.13.2/bin
+
+# # Set the environment variable to use the virtual environment
+# ENV PATH="/InmobiusApiAutomation/venv/bin:$PATH"
+
 # Set the working directory
 WORKDIR /InmobiusApiAutomation
 
@@ -17,8 +34,8 @@ RUN venv/bin/pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code to the container
 COPY . .
 
-# Set the environment variable to use the virtual environment
-ENV PATH="/InmobiusApiAutomation/venv/bin:$PATH"
+# Set environment paths for Python, Selenium, Java, and Allure binaries
+ENV PATH="/InmobiusApiAutomation/venv/bin:/usr/bin:/opt/allure-2.13.2/bin:$PATH"
 
 # Run the application or command as needed
 # Example:
