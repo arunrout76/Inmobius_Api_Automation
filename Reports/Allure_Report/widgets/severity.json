@@ -1,60 +1,60 @@
 [ {
-  "uid" : "747fe113e9827a2b",
-  "name" : "Register a Organic Exist Student.",
-  "time" : {
-    "start" : 1722418598237,
-    "stop" : 1722418607773,
-    "duration" : 9536
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af3fa6d19a51b3e9",
-  "name" : "Register a Organic Student for Exist Phone Number",
-  "time" : {
-    "start" : 1722418617884,
-    "stop" : 1722418628564,
-    "duration" : 10680
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2a6bd29c7dada771",
+  "uid" : "213450d12accf68e",
   "name" : "Register a Organic New Student.",
   "time" : {
-    "start" : 1722418588656,
-    "stop" : 1722418598234,
-    "duration" : 9578
+    "start" : 1722424035482,
+    "stop" : 1722424045025,
+    "duration" : 9543
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "3dd0fbc280edd694",
-  "name" : "Student Login with Correct Credentials",
-  "time" : {
-    "start" : 1722418586292,
-    "stop" : 1722418587987,
-    "duration" : 1695
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3af623c33edda024",
-  "name" : "Student Login with Wrong Credentials",
-  "time" : {
-    "start" : 1722418587990,
-    "stop" : 1722418588651,
-    "duration" : 661
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58dcf6c2ce15d87f",
+  "uid" : "b066eca71176464c",
   "name" : "Register a Organic Student for Exist mail",
   "time" : {
-    "start" : 1722418607776,
-    "stop" : 1722418617881,
-    "duration" : 10105
+    "start" : 1722424054334,
+    "stop" : 1722424063236,
+    "duration" : 8902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f5d74d6268325d9",
+  "name" : "Register a Organic Exist Student.",
+  "time" : {
+    "start" : 1722424045027,
+    "stop" : 1722424054332,
+    "duration" : 9305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40702820af45add0",
+  "name" : "Student Login with Wrong Credentials",
+  "time" : {
+    "start" : 1722424034724,
+    "stop" : 1722424035479,
+    "duration" : 755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "442f06f7074e1583",
+  "name" : "Student Login with Correct Credentials",
+  "time" : {
+    "start" : 1722424033208,
+    "stop" : 1722424034721,
+    "duration" : 1513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9a18156bd560660",
+  "name" : "Register a Organic Student for Exist Phone Number",
+  "time" : {
+    "start" : 1722424063237,
+    "stop" : 1722424072864,
+    "duration" : 9627
   },
   "status" : "passed",
   "severity" : "normal"

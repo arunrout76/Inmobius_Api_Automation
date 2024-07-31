@@ -1,12 +1,12 @@
 {
-  "uid" : "747fe113e9827a2b",
-  "name" : "Register a Organic Exist Student.",
-  "fullName" : "Organic Registration for Student: Register a Organic Exist Student.",
-  "historyId" : "08c7d6d10fc04ce5925892705e50b4ea",
+  "uid" : "e9a18156bd560660",
+  "name" : "Register a Organic Student for Exist Phone Number",
+  "fullName" : "Organic Registration for Student: Register a Organic Student for Exist Phone Number",
+  "historyId" : "741ab0980429e447516336579aea1bb2",
   "time" : {
-    "start" : 1722418598237,
-    "stop" : 1722418607773,
-    "duration" : 9536
+    "start" : 1722424063237,
+    "stop" : 1722424072864,
+    "duration" : 9627
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,112 +17,112 @@
     "steps" : [ {
       "name" : "Given I send a POST request to \"https://gatewayapi.devinfinitylearn.in/api/v1/user/register\"",
       "time" : {
-        "start" : 1722418598239,
-        "stop" : 1722418598239,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "And passing headers for organic registration",
-      "time" : {
-        "start" : 1722418598240,
-        "stop" : 1722418598242,
-        "duration" : 2
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ {
-        "uid" : "2f78059dc0afb9ef",
-        "name" : ".table",
-        "source" : "2f78059dc0afb9ef.csv",
-        "type" : "text/csv",
-        "size" : 114
-      } ],
-      "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "And passing payload for organic exist registration",
-      "time" : {
-        "start" : 1722418598242,
-        "stop" : 1722418598244,
-        "duration" : 2
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ {
-        "uid" : "a9300e76ca6107d5",
-        "name" : ".table",
-        "source" : "a9300e76ca6107d5.csv",
-        "type" : "text/csv",
-        "size" : 196
-      } ],
-      "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "When I send request as POST method for organic registration",
-      "time" : {
-        "start" : 1722418598245,
-        "stop" : 1722418607768,
-        "duration" : 9523
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Then The response status code of organic registration should be \"409\"",
-      "time" : {
-        "start" : 1722418607769,
-        "stop" : 1722418607771,
-        "duration" : 2
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "And Validate message for organic registration should \"User already exist\"",
-      "time" : {
-        "start" : 1722418607771,
-        "stop" : 1722418607772,
+        "start" : 1722424063239,
+        "stop" : 1722424063240,
         "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And passing headers for organic registration",
+      "time" : {
+        "start" : 1722424063241,
+        "stop" : 1722424063244,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "790afab5c5134fcd",
+        "name" : ".table",
+        "source" : "790afab5c5134fcd.csv",
+        "type" : "text/csv",
+        "size" : 114
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And passing payload for organic registration using exist Phone Number",
+      "time" : {
+        "start" : 1722424063245,
+        "stop" : 1722424063247,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12be373f078221aa",
+        "name" : ".table",
+        "source" : "12be373f078221aa.csv",
+        "type" : "text/csv",
+        "size" : 193
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I send request as POST method for organic registration",
+      "time" : {
+        "start" : 1722424063247,
+        "stop" : 1722424072860,
+        "duration" : 9613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then The response status code of organic registration should be \"409\"",
+      "time" : {
+        "start" : 1722424072860,
+        "stop" : 1722424072862,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Validate message for organic registration should \"Similar users found\"",
+      "time" : {
+        "start" : 1722424072862,
+        "stop" : 1722424072864,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 2,
     "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -147,18 +147,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "fd84be5afc616d22",
-      "status" : "passed",
-      "time" : {
-        "start" : 1722323908806,
-        "stop" : 1722323918428,
-        "duration" : 9622
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "747fe113e9827a2b.json",
+  "source" : "e9a18156bd560660.json",
   "parameterValues" : [ ]
 }

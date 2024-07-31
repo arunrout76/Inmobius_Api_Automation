@@ -1,12 +1,12 @@
 {
-  "uid" : "a46dd0311d00ef82",
+  "uid" : "213450d12accf68e",
   "name" : "Register a Organic New Student.",
   "fullName" : "Organic Registration for Student: Register a Organic New Student.",
   "historyId" : "45743100b0f3d41cf9b07aa46ea5eeb9",
   "time" : {
-    "start" : 1722323899166,
-    "stop" : 1722323908803,
-    "duration" : 9637
+    "start" : 1722424035482,
+    "stop" : 1722424045025,
+    "duration" : 9543
   },
   "status" : "failed",
   "statusMessage" : "AssertionError\n",
@@ -21,81 +21,81 @@
     "steps" : [ {
       "name" : "Given I send a POST request to \"https://gatewayapi.devinfinitylearn.in/api/v1/user/register\"",
       "time" : {
-        "start" : 1722323899168,
-        "stop" : 1722323899169,
-        "duration" : 1
+        "start" : 1722424035484,
+        "stop" : 1722424035486,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "And passing headers for organic registration",
       "time" : {
-        "start" : 1722323899170,
-        "stop" : 1722323899171,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ {
-        "uid" : "4f977038c9e9a30c",
-        "name" : ".table",
-        "source" : "4f977038c9e9a30c.csv",
-        "type" : "text/csv",
-        "size" : 114
-      } ],
-      "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "And passing payload for organic new registration",
-      "time" : {
-        "start" : 1722323899172,
-        "stop" : 1722323899174,
+        "start" : 1722424035486,
+        "stop" : 1722424035488,
         "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "f0bdadcf8f940de6",
+        "uid" : "ecc3957cb36ffecc",
         "name" : ".table",
-        "source" : "f0bdadcf8f940de6.csv",
+        "source" : "ecc3957cb36ffecc.csv",
+        "type" : "text/csv",
+        "size" : 114
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And passing payload for organic new registration",
+      "time" : {
+        "start" : 1722424035488,
+        "stop" : 1722424035490,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "905e619668a0aabd",
+        "name" : ".table",
+        "source" : "905e619668a0aabd.csv",
         "type" : "text/csv",
         "size" : 194
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "When I send request as POST method for organic registration",
       "time" : {
-        "start" : 1722323899175,
-        "stop" : 1722323908765,
-        "duration" : 9590
+        "start" : 1722424035490,
+        "stop" : 1722424045018,
+        "duration" : 9528
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Then The response status code of organic registration should be \"201\"",
       "time" : {
-        "start" : 1722323908765,
-        "stop" : 1722323908800,
-        "duration" : 35
+        "start" : 1722424045018,
+        "stop" : 1722424045023,
+        "duration" : 5
       },
       "status" : "failed",
       "statusMessage" : "AssertionError\n",
@@ -103,32 +103,32 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : true,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
     }, {
       "name" : "And Validate message for organic registration should \"User registered\"",
       "time" : {
-        "start" : 1722323908803,
-        "stop" : 1722323908803,
+        "start" : 1722424045025,
+        "stop" : 1722424045025,
         "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 2,
     "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -149,12 +149,18 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
-    "categories" : [ ],
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "a46dd0311d00ef82.json",
+  "source" : "213450d12accf68e.json",
   "parameterValues" : [ ]
 }

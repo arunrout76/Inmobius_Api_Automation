@@ -1,12 +1,12 @@
 {
-  "uid" : "3af623c33edda024",
+  "uid" : "40702820af45add0",
   "name" : "Student Login with Wrong Credentials",
   "fullName" : "Student Login: Student Login with Wrong Credentials",
   "historyId" : "e30f74b6260595e28423bce9babdc6bb",
   "time" : {
-    "start" : 1722418587990,
-    "stop" : 1722418588651,
-    "duration" : 661
+    "start" : 1722424034724,
+    "stop" : 1722424035479,
+    "duration" : 755
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,112 +17,112 @@
     "steps" : [ {
       "name" : "Given I send a GET request to \"https://gatewayapi.devinfinitylearn.in/api/v1/user/login\"",
       "time" : {
-        "start" : 1722418587993,
-        "stop" : 1722418587994,
+        "start" : 1722424034726,
+        "stop" : 1722424034727,
         "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "And passing headers",
       "time" : {
-        "start" : 1722418587995,
-        "stop" : 1722418588005,
-        "duration" : 10
+        "start" : 1722424034727,
+        "stop" : 1722424034735,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "cc8ac4f38adeab10",
+        "uid" : "84d2c7beda87ac1a",
         "name" : ".table",
-        "source" : "cc8ac4f38adeab10.csv",
+        "source" : "84d2c7beda87ac1a.csv",
         "type" : "text/csv",
         "size" : 100
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "And Passing Incorrect Payload",
       "time" : {
-        "start" : 1722418588006,
-        "stop" : 1722418588009,
-        "duration" : 3
+        "start" : 1722424034736,
+        "stop" : 1722424034740,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "df72662c200dbebe",
+        "uid" : "b2534e91969f50b3",
         "name" : ".table",
-        "source" : "df72662c200dbebe.csv",
+        "source" : "b2534e91969f50b3.csv",
         "type" : "text/csv",
         "size" : 52
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "When I send request as POST method",
       "time" : {
-        "start" : 1722418588010,
-        "stop" : 1722418588647,
-        "duration" : 637
+        "start" : 1722424034740,
+        "stop" : 1722424035465,
+        "duration" : 725
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Then The response status code should be 400",
       "time" : {
-        "start" : 1722418588647,
-        "stop" : 1722418588648,
-        "duration" : 1
+        "start" : 1722424035467,
+        "stop" : 1722424035475,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "And In Reponse get a message as \"Incorrect Password\"",
       "time" : {
-        "start" : 1722418588649,
-        "stop" : 1722418588651,
-        "duration" : 2
+        "start" : 1722424035475,
+        "stop" : 1722424035478,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 2,
     "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -147,18 +147,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "848eba89dff04f75",
-      "status" : "passed",
-      "time" : {
-        "start" : 1722323898339,
-        "stop" : 1722323899163,
-        "duration" : 824
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3af623c33edda024.json",
+  "source" : "40702820af45add0.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "3dd0fbc280edd694",
+  "uid" : "442f06f7074e1583",
   "name" : "Student Login with Correct Credentials",
   "fullName" : "Student Login: Student Login with Correct Credentials",
   "historyId" : "c2b9ef91ed1f76dfbfca7799a7910377",
   "time" : {
-    "start" : 1722418586292,
-    "stop" : 1722418587987,
-    "duration" : 1695
+    "start" : 1722424033208,
+    "stop" : 1722424034721,
+    "duration" : 1513
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,112 +17,112 @@
     "steps" : [ {
       "name" : "Given I send a GET request to \"https://gatewayapi.devinfinitylearn.in/api/v1/user/login\"",
       "time" : {
-        "start" : 1722418586296,
-        "stop" : 1722418586299,
-        "duration" : 3
+        "start" : 1722424033211,
+        "stop" : 1722424033212,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "And passing headers",
       "time" : {
-        "start" : 1722418586300,
-        "stop" : 1722418586304,
-        "duration" : 4
+        "start" : 1722424033213,
+        "stop" : 1722424033230,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "401037b169df5874",
+        "uid" : "6518d684d7c4ea07",
         "name" : ".table",
-        "source" : "401037b169df5874.csv",
+        "source" : "6518d684d7c4ea07.csv",
         "type" : "text/csv",
         "size" : 100
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "And passing payload",
       "time" : {
-        "start" : 1722418586304,
-        "stop" : 1722418586308,
+        "start" : 1722424033230,
+        "stop" : 1722424033234,
         "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "585c862a39ac781f",
+        "uid" : "e357255ed483747c",
         "name" : ".table",
-        "source" : "585c862a39ac781f.csv",
+        "source" : "e357255ed483747c.csv",
         "type" : "text/csv",
         "size" : 52
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "When I send request as POST method",
       "time" : {
-        "start" : 1722418586308,
-        "stop" : 1722418587967,
-        "duration" : 1659
+        "start" : 1722424033234,
+        "stop" : 1722424034712,
+        "duration" : 1478
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Then The response status code should be 200",
       "time" : {
-        "start" : 1722418587969,
-        "stop" : 1722418587981,
-        "duration" : 12
+        "start" : 1722424034712,
+        "stop" : 1722424034714,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "And Validate admission_id \"13907DSZS\"",
       "time" : {
-        "start" : 1722418587982,
-        "stop" : 1722418587986,
-        "duration" : 4
+        "start" : 1722424034714,
+        "stop" : 1722424034720,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 2,
     "stepsCount" : 6,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -147,18 +147,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "9a0da3d27ceca4eb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1722323896567,
-        "stop" : 1722323898336,
-        "duration" : 1769
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3dd0fbc280edd694.json",
+  "source" : "442f06f7074e1583.json",
   "parameterValues" : [ ]
 }

@@ -47,18 +47,13 @@
 # Use the official Python image from the Docker Hub
 FROM python:3.11.4-slim
 
-# Install required tools
+# Install required tools including curl
 RUN apt-get update && apt-get install -y \
     curl \
+    tar \
     unzip \
+    openjdk-17-jre-headless \
     && rm -rf /var/lib/apt/lists/*
-
-# Install OpenJDK manually
-RUN curl -L -o /tmp/openjdk.tar.gz https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.13_linux-x64_bin.tar.gz \
-    && mkdir -p /usr/lib/jvm \
-    && tar -xzf /tmp/openjdk.tar.gz -C /usr/lib/jvm \
-    && ln -s /usr/lib/jvm/jdk-11.0.13 /usr/lib/jvm/java-11-openjdk \
-    && rm /tmp/openjdk.tar.gz
 
 # Install Allure Command-Line tools (version 2.13.2)
 RUN curl -o /tmp/allure.zip -L https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.2/allure-commandline-2.13.2.zip \
@@ -67,7 +62,7 @@ RUN curl -o /tmp/allure.zip -L https://repo.maven.apache.org/maven2/io/qameta/al
     && rm /tmp/allure.zip
 
 # Set the environment variable for Java
-ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 
 # Set the environment path to include Java binaries
 ENV PATH="$JAVA_HOME/bin:$PATH"

@@ -1,21 +1,21 @@
-31/07/2024 03:06:26 PM: INFO: login_steps: pass_headers: Headers: {'accept': 'application/json', 'product-id': '100', 'tenant-id': '99999', 'Content-Type': 'application/json'}
-31/07/2024 03:06:26 PM: INFO: login_steps: pass_payload: payload :{'admission_id': '13907DSZS', 'password': 'QWERTY'}
-31/07/2024 03:06:27 PM: INFO: login_steps: validate_response: Status_code: 200
-31/07/2024 03:06:27 PM: INFO: login_steps: validate_admission_id: Json Response: {'token': {'access_token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjI1MDQ5ODcsImlhdCI6MTcyMjQxODU4NywiREJJZCI6IjkzOTgxMjg2IiwiRmlyc3ROYW1lIjoibWlrYSBUZXN0IiwiTGFzdE5hbWUiOm51bGwsInVpZCI6IjEzOTA3RFNaUyIsIlRlbmFudElkIjoxMywiVGVuYW50Q29kZSI6InRlbmFudCBjcmVhdGlvbiIsIlJvbGVOYW1lIjoiU3R1ZGVudCIsIlJvbGVJZCI6IjEiLCJ1YW1faWQiOjkzOTgxMjg2LCJjcm5faWQiOiJDUk5QMTAwVDAwMDEzUUJCNTJZUiIsInNjaG9vbF9pZCI6IlNDSDEwMDEzOTAifQ.3Rpy-MXgnJ-1guia7yqvVv4YubCzMA686Nx9BS5cMJM', 'refresh_token': 'b6afd0a3e46f33c44d2144e5863370cf033390503f4644f44d91eed0fed0331c'}, 'user': {'id': None, 'first_name': 'mika Test', 'last_name': None, 'isd_code': '+91', 'phone': '2315616516', 'email': None, 'admission_id': '13907DSZS', 'grade_id': '1', 'branch_id': 90, 'tenant_id': 13, 'school_id': 'SCH1001390', 'whatsapp_consent': True, 'crn_id': 'CRNP100T00013QBB52YR', 'is_active': True, 'account_type': 'user', 'registration_source': 'organic', 'hall_ticket_id': '21682915995', 'created_at': '2024-06-26T06:05:33.513475'}, 'mdm': {'product_id': 100, 'tenant_id': 13, 'branch_id': 90, 'grade_id': 1, 'program_id': None, 'role_ids': [1]}}
-31/07/2024 03:06:27 PM: INFO: login_steps: validate_admission_id: getting_id: 13907DSZS
-31/07/2024 03:06:28 PM: INFO: login_steps: pass_headers: Headers: {'accept': 'application/json', 'product-id': '100', 'tenant-id': '99999', 'Content-Type': 'application/json'}
-31/07/2024 03:06:28 PM: INFO: login_steps: pass_payload: incorrect payload: {'admission_id': '13907DSZS', 'password': '123456'}
-31/07/2024 03:06:28 PM: INFO: login_steps: validate_response: Status_code: 400
-31/07/2024 03:06:28 PM: INFO: login_steps: incorrect_credential_message: Message for Incorrect Password: Incorrect Password
-31/07/2024 03:06:38 PM: INFO: student_register_steps: validate_status: printed status_code201
-31/07/2024 03:06:38 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
-31/07/2024 03:06:38 PM: ERROR: student_register_steps: validate_status: 
-31/07/2024 03:06:47 PM: INFO: student_register_steps: validate_status: printed status_code409
-31/07/2024 03:06:47 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
-31/07/2024 03:06:47 PM: INFO: student_register_steps: register_message_response: User already exist
-31/07/2024 03:06:57 PM: INFO: student_register_steps: validate_status: printed status_code409
-31/07/2024 03:06:57 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
-31/07/2024 03:06:57 PM: INFO: student_register_steps: register_message_response: Similar users found
-31/07/2024 03:07:08 PM: INFO: student_register_steps: validate_status: printed status_code409
-31/07/2024 03:07:08 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
-31/07/2024 03:07:08 PM: INFO: student_register_steps: register_message_response: Similar users found
+31/07/2024 04:37:13 PM: INFO: login_steps: pass_headers: Headers: {'accept': 'application/json', 'product-id': '100', 'tenant-id': '99999', 'Content-Type': 'application/json'}
+31/07/2024 04:37:13 PM: INFO: login_steps: pass_payload: payload :{'admission_id': '13907DSZS', 'password': 'QWERTY'}
+31/07/2024 04:37:14 PM: INFO: login_steps: validate_response: Status_code: 200
+31/07/2024 04:37:14 PM: INFO: login_steps: validate_admission_id: Json Response: {'token': {'access_token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjI1MTA0MzMsImlhdCI6MTcyMjQyNDAzMywiREJJZCI6IjkzOTgxMjg2IiwiRmlyc3ROYW1lIjoibWlrYSBUZXN0IiwiTGFzdE5hbWUiOm51bGwsInVpZCI6IjEzOTA3RFNaUyIsIlRlbmFudElkIjoxMywiVGVuYW50Q29kZSI6InRlbmFudCBjcmVhdGlvbiIsIlJvbGVOYW1lIjoiU3R1ZGVudCIsIlJvbGVJZCI6IjEiLCJ1YW1faWQiOjkzOTgxMjg2LCJjcm5faWQiOiJDUk5QMTAwVDAwMDEzUUJCNTJZUiIsInNjaG9vbF9pZCI6IlNDSDEwMDEzOTAifQ.ASeBsKUUp_g-xyT4eo0IG-ZfIkel_m6r-a5Zs0tAtQ8', 'refresh_token': '20245a1938a693a227305bb71e0ba39696fe24b8c2cab57f78ca875c945fa10f'}, 'user': {'id': None, 'first_name': 'mika Test', 'last_name': None, 'isd_code': '+91', 'phone': '2315616516', 'email': None, 'admission_id': '13907DSZS', 'grade_id': '1', 'branch_id': 90, 'tenant_id': 13, 'school_id': 'SCH1001390', 'whatsapp_consent': True, 'crn_id': 'CRNP100T00013QBB52YR', 'is_active': True, 'account_type': 'user', 'registration_source': 'organic', 'hall_ticket_id': '21682915995', 'created_at': '2024-06-26T06:05:33.513475'}, 'mdm': {'product_id': 100, 'tenant_id': 13, 'branch_id': 90, 'grade_id': 1, 'program_id': None, 'role_ids': [1]}}
+31/07/2024 04:37:14 PM: INFO: login_steps: validate_admission_id: getting_id: 13907DSZS
+31/07/2024 04:37:14 PM: INFO: login_steps: pass_headers: Headers: {'accept': 'application/json', 'product-id': '100', 'tenant-id': '99999', 'Content-Type': 'application/json'}
+31/07/2024 04:37:14 PM: INFO: login_steps: pass_payload: incorrect payload: {'admission_id': '13907DSZS', 'password': '123456'}
+31/07/2024 04:37:15 PM: INFO: login_steps: validate_response: Status_code: 400
+31/07/2024 04:37:15 PM: INFO: login_steps: incorrect_credential_message: Message for Incorrect Password: Incorrect Password
+31/07/2024 04:37:25 PM: INFO: student_register_steps: validate_status: printed status_code201
+31/07/2024 04:37:25 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
+31/07/2024 04:37:25 PM: ERROR: student_register_steps: validate_status: 
+31/07/2024 04:37:34 PM: INFO: student_register_steps: validate_status: printed status_code409
+31/07/2024 04:37:34 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
+31/07/2024 04:37:34 PM: INFO: student_register_steps: register_message_response: User already exist
+31/07/2024 04:37:43 PM: INFO: student_register_steps: validate_status: printed status_code409
+31/07/2024 04:37:43 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
+31/07/2024 04:37:43 PM: INFO: student_register_steps: register_message_response: Similar users found
+31/07/2024 04:37:52 PM: INFO: student_register_steps: validate_status: printed status_code409
+31/07/2024 04:37:52 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
+31/07/2024 04:37:52 PM: INFO: student_register_steps: register_message_response: Similar users found
