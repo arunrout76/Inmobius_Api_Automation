@@ -1,21 +1,32 @@
-31/07/2024 04:37:13 PM: INFO: login_steps: pass_headers: Headers: {'accept': 'application/json', 'product-id': '100', 'tenant-id': '99999', 'Content-Type': 'application/json'}
-31/07/2024 04:37:13 PM: INFO: login_steps: pass_payload: payload :{'admission_id': '13907DSZS', 'password': 'QWERTY'}
-31/07/2024 04:37:14 PM: INFO: login_steps: validate_response: Status_code: 200
-31/07/2024 04:37:14 PM: INFO: login_steps: validate_admission_id: Json Response: {'token': {'access_token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjI1MTA0MzMsImlhdCI6MTcyMjQyNDAzMywiREJJZCI6IjkzOTgxMjg2IiwiRmlyc3ROYW1lIjoibWlrYSBUZXN0IiwiTGFzdE5hbWUiOm51bGwsInVpZCI6IjEzOTA3RFNaUyIsIlRlbmFudElkIjoxMywiVGVuYW50Q29kZSI6InRlbmFudCBjcmVhdGlvbiIsIlJvbGVOYW1lIjoiU3R1ZGVudCIsIlJvbGVJZCI6IjEiLCJ1YW1faWQiOjkzOTgxMjg2LCJjcm5faWQiOiJDUk5QMTAwVDAwMDEzUUJCNTJZUiIsInNjaG9vbF9pZCI6IlNDSDEwMDEzOTAifQ.ASeBsKUUp_g-xyT4eo0IG-ZfIkel_m6r-a5Zs0tAtQ8', 'refresh_token': '20245a1938a693a227305bb71e0ba39696fe24b8c2cab57f78ca875c945fa10f'}, 'user': {'id': None, 'first_name': 'mika Test', 'last_name': None, 'isd_code': '+91', 'phone': '2315616516', 'email': None, 'admission_id': '13907DSZS', 'grade_id': '1', 'branch_id': 90, 'tenant_id': 13, 'school_id': 'SCH1001390', 'whatsapp_consent': True, 'crn_id': 'CRNP100T00013QBB52YR', 'is_active': True, 'account_type': 'user', 'registration_source': 'organic', 'hall_ticket_id': '21682915995', 'created_at': '2024-06-26T06:05:33.513475'}, 'mdm': {'product_id': 100, 'tenant_id': 13, 'branch_id': 90, 'grade_id': 1, 'program_id': None, 'role_ids': [1]}}
-31/07/2024 04:37:14 PM: INFO: login_steps: validate_admission_id: getting_id: 13907DSZS
-31/07/2024 04:37:14 PM: INFO: login_steps: pass_headers: Headers: {'accept': 'application/json', 'product-id': '100', 'tenant-id': '99999', 'Content-Type': 'application/json'}
-31/07/2024 04:37:14 PM: INFO: login_steps: pass_payload: incorrect payload: {'admission_id': '13907DSZS', 'password': '123456'}
-31/07/2024 04:37:15 PM: INFO: login_steps: validate_response: Status_code: 400
-31/07/2024 04:37:15 PM: INFO: login_steps: incorrect_credential_message: Message for Incorrect Password: Incorrect Password
-31/07/2024 04:37:25 PM: INFO: student_register_steps: validate_status: printed status_code201
-31/07/2024 04:37:25 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
-31/07/2024 04:37:25 PM: ERROR: student_register_steps: validate_status: 
-31/07/2024 04:37:34 PM: INFO: student_register_steps: validate_status: printed status_code409
-31/07/2024 04:37:34 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
-31/07/2024 04:37:34 PM: INFO: student_register_steps: register_message_response: User already exist
-31/07/2024 04:37:43 PM: INFO: student_register_steps: validate_status: printed status_code409
-31/07/2024 04:37:43 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
-31/07/2024 04:37:43 PM: INFO: student_register_steps: register_message_response: Similar users found
-31/07/2024 04:37:52 PM: INFO: student_register_steps: validate_status: printed status_code409
-31/07/2024 04:37:52 PM: INFO: student_register_steps: validate_status: Actual Status Code 409
-31/07/2024 04:37:52 PM: INFO: student_register_steps: register_message_response: Similar users found
+20/09/2024 07:13:17 PM: INFO: onbaord_apis: validate_status: printed status_code 200
+20/09/2024 07:13:17 PM: INFO: onbaord_apis: validate_status: Actual Status Code 200
+20/09/2024 07:13:17 PM: INFO: onbaord_apis: validate_status: Response Message {'code': 400, 'message': 'Invalid activation code'}
+20/09/2024 07:13:17 PM: INFO: onbaord_apis: onboard_school_status: 200
+20/09/2024 07:13:17 PM: INFO: onbaord_apis: onboard_school_status: 200
+20/09/2024 07:13:17 PM: INFO: onbaord_apis: onboard_school_status: {'error': {'status': 401, 'message': 'Unauthorized'}}
+20/09/2024 07:13:18 PM: INFO: onbaord_apis: school_login_status: 200
+20/09/2024 07:13:18 PM: INFO: onbaord_apis: school_login_status: 200
+20/09/2024 07:13:18 PM: INFO: onbaord_apis: school_login_status: {'token': {'access_token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjY5MjYxOTcsImlhdCI6MTcyNjgzOTc5NywiaWQiOiI2NmRlZTAzMmE0MzEzY2JmNTZlMjA4NWYiLCJzY2hvb2xfaWQiOiJTQ0gxMDAxMDAwMTAyIiwiZmlyc3RfbmFtZSI6ImphYW11IHRlc3QiLCJsYXN0X25hbWUiOm51bGwsInNjaG9vbF9uYW1lIjoiamFtdW4gc2Nob29sIiwiaXNkX2NvZGUiOiIrOTEiLCJSb2xlSWQiOiIyIiwicGhvbmUiOiIxMzUyMTUzMTUzIiwiZW1haWwiOiJqYW1tdUBqa2wuY29tIiwicHJvZHVjdF9pZCI6MTAwLCJ0ZW5hbnRfaWQiOjEwMDAxMCwiYnJhbmNoX2lkIjoyLCJhY2NvdW50X3R5cGUiOiJzY2hvb2wiLCJpc19hY3RpdmUiOnRydWV9.3Qm14uX1kpCqV95c2ztN5Y-MJAPV7LBvOQuh-uf_Wkk', 'refresh_token': '6e1d63e9ba60e965bf06907f194517e43200fc7363a1f2acbc5a088da8dd5a8c'}, 'user': {'school_id': 'SCH1001000102', 'first_name': 'jaamu test', 'last_name': None, 'school_name': 'jamun school', 'isd_code': '+91', 'phone': '1352153153', 'email': 'jammu@jkl.com', 'product_id': 100, 'tenant_id': 100010, 'branch_id': 2, 'is_active': True, 'account_type': 'school', 'registration_source': 'organic'}, 'mdm': {'product_id': 100, 'tenant_id': 100010, 'branch_id': 2, 'role_ids': [2]}}
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: student_login_status: 200
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: student_login_status: 200
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: student_login_status: {'code': 200, 'details': {'token': {'access_token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjY5MjYxOTgsImlhdCI6MTcyNjgzOTc5OCwiREJJZCI6Ijk0MDQzOTkwIiwiRmlyc3ROYW1lIjoiY2h6ZnciLCJMYXN0TmFtZSI6IiIsInVpZCI6IjEwMDAxMDhTSlpVSEhCIiwiVGVuYW50SWQiOjk5OTk5LCJUZW5hbnRDb2RlIjoiSW5tb2JpdXMiLCJSb2xlTmFtZSI6IlN0dWRlbnQiLCJSb2xlSWQiOiIxIiwidWFtX2lkIjo5NDA0Mzk5MCwiY3JuX2lkIjoiQ1JOUDEwMFQ5OTk5OTQ0WTU1UUUiLCJzY2hvb2xfaWQiOiJTQ0gxMDAxMDAwMTAyIn0.TMjLXzwxQUyh1UTgpkJdrtbiANUduEytxo5l1s8dVcg', 'refresh_token': '3a813bdc32299677b7174ee587b309e3a0b7a0d083a1dde28a4139c57ba77c1e'}, 'user': {'id': None, 'first_name': 'chzfw', 'last_name': '', 'isd_code': '+91', 'phone': '2031200518', 'email': None, 'admission_id': '1000108SJZUHHB', 'grade_id': '6', 'branch_id': 2, 'tenant_id': 99999, 'school_id': 'SCH1001000102', 'whatsapp_consent': True, 'crn_id': 'CRNP100T9999944Y55QE', 'is_active': True, 'account_type': 'user', 'registration_source': 'bulk', 'hall_ticket_id': '48224975319', 'created_at': '2024-09-09T12:10:52.490356', 'exam': 'Foundation Test', 'exam_id': 5}, 'mdm': {'product_id': 100, 'tenant_id': 99999, 'branch_id': 2, 'grade_id': 6, 'program_id': None, 'role_ids': [1]}}}
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: generate_otp_status: True
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: generate_otp_status: 200
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: generate_otp_status: {'error': {'status': 403, 'message': 'Invalid authorization code.'}}
+20/09/2024 07:13:20 PM: ERROR: onbaord_apis: generate_otp_status: invalid literal for int() with base 10: 'True'
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: student_login_otp_status: 200
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: student_login_otp_status: 200
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: student_login_otp_status: {'detail': 'Incorrect OTP, please try again'}
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: list_grade_status: 200
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: list_grade_status: 200
+20/09/2024 07:13:20 PM: INFO: onbaord_apis: list_grade_status: [{'grade_id': 18, 'grade_name': 'Nursery', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 19, 'grade_name': 'LKG', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 20, 'grade_name': 'UKG', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 1, 'grade_name': 'Grade-1', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 2, 'grade_name': 'Grade-2', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 3, 'grade_name': 'Grade-3', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 4, 'grade_name': 'Grade-4', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 5, 'grade_name': 'Grade-5', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 6, 'grade_name': 'Grade-6', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 7, 'grade_name': 'Grade-7', 'description': 'NoDataAvailbl', 'image': 'NoDataAvailble'}, {'grade_id': 8, 'grade_name': 'Grade-8', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 9, 'grade_name': 'Grade-9', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 10, 'grade_name': 'Grade-10', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 11, 'grade_name': 'Grade-11', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 12, 'grade_name': 'Grade-12', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}, {'grade_id': 13, 'grade_name': 'Grade-13', 'description': 'NoDataAvailble', 'image': 'NoDataAvailble'}]
+20/09/2024 07:13:20 PM: ERROR: onbaord_apis: list_grade_status: 
+20/09/2024 07:13:21 PM: INFO: onbaord_apis: forgot_password_status: 200
+20/09/2024 07:13:21 PM: INFO: onbaord_apis: forgot_password_status: 200
+20/09/2024 07:13:21 PM: INFO: onbaord_apis: forgot_password_status: {'detail': 'Password changed Sucessfully'}
+20/09/2024 07:13:21 PM: INFO: onbaord_apis: reset_password_payload: ['1000108SJZUHHB']
+20/09/2024 07:13:21 PM: INFO: onbaord_apis: reset_password_payload: {'admission_ids': ['1000108SJZUHHB']}
+20/09/2024 07:13:22 PM: INFO: onbaord_apis: reset_password_status: 200
+20/09/2024 07:13:22 PM: INFO: onbaord_apis: reset_password_status: 200
+20/09/2024 07:13:22 PM: INFO: onbaord_apis: reset_password_status: {'detail': 'Passwords updated'}
+20/09/2024 07:13:22 PM: INFO: onbaord_apis: reset_password_status: True

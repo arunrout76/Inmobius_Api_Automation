@@ -105,3 +105,6 @@ Feature: Organic Registration for Student
     When I send request as POST method for organic registration
     Then The response status code of organic registration should be "409"
     And Validate message for organic registration should "Similar users found"
+
+
+    
